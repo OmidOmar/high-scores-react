@@ -48,6 +48,14 @@ function App() {
     }
   }
 
+  const Footer = () => {
+    return (
+      <div>
+        © CYF by <a href="https://github.com/OmidOmar">Omid Omar</a>
+      </div>
+    );
+  };
+
   return (
     <div id="container">
       <div className="table-responsive">
@@ -111,6 +119,7 @@ function App() {
           );
         })}
       </div>
+      <Footer />
     </div>
   );
 }
